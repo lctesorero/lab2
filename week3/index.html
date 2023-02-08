@@ -2,21 +2,19 @@
 <html>
 <head>
 <style>
-div.static {
-  position: static;
-  border: 3px solid #73AD21;
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
 </style>
 </head>
 <body>
 
-<h2>position: static;</h2>
-
-<p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
-
-<div class="static">
-This div element has position: static;
-</div>
+<h1>This is a heading</h1>
+<img src="img_tree.png">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
 
 </body>
 </html>
