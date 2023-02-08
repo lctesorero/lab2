@@ -2,30 +2,37 @@
 <html>
 <head>
 <style>
-p {outline-color:red;}
+div {
+  border: 1px solid gray;
+  padding: 8px;
+}
 
-p.dotted {outline-style: dotted;}
-p.dashed {outline-style: dashed;}
-p.solid {outline-style: solid;}
-p.double {outline-style: double;}
-p.groove {outline-style: groove;}
-p.ridge {outline-style: ridge;}
-p.inset {outline-style: inset;}
-p.outset {outline-style: outset;}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
 </style>
 </head>
 <body>
 
-<h2>The outline-style Property</h2>
-
-<p class="dotted">A dotted outline</p>
-<p class="dashed">A dashed outline</p>
-<p class="solid">A solid outline</p>
-<p class="double">A double outline</p>
-<p class="groove">A groove outline. The effect depends on the outline-color value.</p>
-<p class="ridge">A ridge outline. The effect depends on the outline-color value.</p>
-<p class="inset">An inset outline. The effect depends on the outline-color value.</p>
-<p class="outset">An outset outline. The effect depends on the outline-color value.</p>
+<div>
+  <h1>text formatting</h1>
+  <p>This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties.
+  The paragraph is indented, aligned, and the space between characters is specified. The underline is removed from this colored
+  <a target="_blank" href="tryit.asp?filename=trycss_text">"Try it Yourself"</a> link.</p>
+</div>
 
 </body>
 </html>
