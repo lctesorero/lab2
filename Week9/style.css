@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Domine&family=Josefin+Slab:wght@500&family=Kalam&family=Merienda:wght@700&family=Merriweather:ital,wght@1,900&family=Sacramento&display=swap');
+
+body {
+  background-color: #161616;
+  color: whitesmoke;
+}
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+nav ul {
+  flex: 1;
+  text-align: right;
+
+}
+
+.L {
+  height: 10vh;
+  width: 100%;
+  background: #161616;
+  font-family:'Times New Roman', Times, serif;
+  position: relative;
+}
+
+nav {
+  width: 84;
+  margin: auto;
+  padding: 20px 0;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+nav ul li a:hover {
+  color: #ff4321;
+}
+
+.info {
+  margin-left: 8%;
+  margin-right: 15%;
+}
+
+.info h5 {
+  font-size: 15px;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-family:'Times New Roman', Times, serif;
+  color: #c89595;
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  color: whitesmoke;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: px;
+}
+
+a {
+  color: whitesmoke;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20px;
+}
+
+h4{
+  font-family:'Times New Roman', Times, serif;
+  color: whitesmoke;
+  font-size: 40px;
+  text-align: left;
+}
+

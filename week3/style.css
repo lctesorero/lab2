@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Domine&family=Josefin+Slab:wght@500&family=Kalam&family=Merienda:wght@700&family=Merriweather:ital,wght@1,900&family=Sacramento&display=swap');
+
+button {
+  background-color: #dcdcdc; /* Green */
+  border: none;
+  color: rgb(7, 7, 7);
+  padding: 5px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+  
+  
+a{
+  font-family: 'Josefin Slab', serif;
+  color: #070707;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 5px ;
+  margin-right: 5px;
+}
+
+.bordered {
+    border: 2px double whitesmoke;
+  }
+
+  h5 {
+   float: right;
+   border: 3px double;
+   text-align: left;
+   margin-right: 330px;
+   margin-top: 195px;
+   color: whitesmoke;
+   font-size: 25px;
+   }
+
+   h2{
+    font-family: 'Josefin Slab', serif;
+  color: whitesmoke;
+  font-size: 40px;
+   }
+
+   ul{
+    display: block;
+    margin-left: 580px;
+    font-family: 'Merriweather', serif;
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: left;
+   }
+
+  p {
+    color: #e6cbc8;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 15px;
+  }
+
+  .list {
+    display: block;
+    column-count: 2; /* number of columns */
+    padding-left: 200px;
+    margin-left: 110px;
+    margin-right: 20px;
+    position: center;
+
+  }
+
+   
