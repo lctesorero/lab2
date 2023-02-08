@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style> 
-input {
-  width: 100%;
+<style>
+body {
+  counter-reset: section;
+}
+
+h2::before {
+  counter-increment: section;
+  content: "Section " counter(section) ": ";
 }
 </style>
 </head>
 <body>
 
-<h2>A full-width input field</h2>
+<h1>Using CSS Counters</h1>
 
-<form>
-  <label for="fname">First Name</label>
-  <input type="text" id="fname" name="fname">
-</form>
+<h2>HTML Tutorial</h2>
+<h2>CSS Tutorial</h2>
+<h2>JavaScript Tutorial</h2>
+<h2>Python Tutorial</h2>
+<h2>SQL Tutorial</h2>
 
 </body>
 </html>
