@@ -13,9 +13,9 @@
 </br> 
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "mydb";
+$username = "webprogmi212";
+$password = "webprogmi212";
+$dbname = "webprogmi212";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
