@@ -92,6 +92,7 @@
             <a class="one" href="https://www.w3schools.com/css/default.asp" target="_blank">W3Schools CSS Tutorial </br> </a>
             <a class="one" href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools HTML Tutorial</br></a>
             <a class="one" href="https://www.w3schools.com/js/default.asp" target="_blank">W3Schools JavaScript Tutorial </br> </a>
+            <a class="one" href="https://www.w3schools.com/php/php_mysql_intro.asp" target="_blank">W3Schools MySQL Tutorial </br> </a>
             <a class="one" href="https://www.w3schools.com/php/default.asp" target="_blank">W3Schools PHP Tutorial </br> </a>
           </p>
       </center>

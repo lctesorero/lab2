@@ -113,6 +113,7 @@ function test_input($data) {
 </form>
 
 <?php
+echo "<br>";
 echo "<h2>Your Input:</h2>";
 echo $name;
 echo "<br>";
@@ -148,9 +149,10 @@ if ($conn === false) {
 }
 
 $sql = "INSERT INTO myguests (name, email, website, comment, gender)
-VALUES ('0', '$name', '$email', '$website', '$comment', '$gender')";
+VALUES ('$name', '$email', '$website', '$comment', '$gender')";
 
 if (mysqli_query($conn, $sql)) {
+  echo "<br>";
   echo "New record created successfully";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
